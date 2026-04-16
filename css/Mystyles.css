@@ -1,0 +1,133 @@
+ nav{
+ color:coral;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    
+  }
+  nav a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+nav a:hover{
+    background-color: lightblue;
+}
+.back-to-top{
+    color: palevioletred;
+    padding: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.back-to-top:hover{
+    background-color: white;
+}
+
+
+ header {
+    height: 300px;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/01/32/54/10/1000_F_132541035_FfSZOIKsPNYAAdkcT7YRYIFIBTPsZXQe.jpg"); /* CHANGE THIS */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+
+  /* dark overlay so text is readable */
+header::before {
+content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+            background: rgba(0, 0, 0, 0.4)
+}
+
+.header-content {
+    position: relative; /* keeps text above overlay */
+  }
+
+  h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: normal;
+  }
+
+  h3{
+    font-size: 30px;
+    color: lightcoral;
+  }
+
+.MainBody{
+height: 70px;
+
+}
+
+body{
+    background-color: lightyellow
+}
+
+img{
+    display:block ;
+    width:35%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.Footer{
+    background-color: black;
+    color: white;
+    height: 25px;
+    line-height: 25px;
+    position: fixed;
+    bottom:0px;
+    right:0px;
+    left:0px;
+}
+
+.common{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.MainBody, .NextSection {
+    display: block;
+    width: 100%;
+}
+
+nav {
+    position: relative;
+}
+
+.NextSection {
+    margin-top: 40px;
+}
+
+.list{
+    text-align: left;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.MainBody, .OthernextSection {
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
